@@ -1,0 +1,66 @@
+---
+title: "Prediction of Housing Values in Boston"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**File name:** "housing.proper.csv" (given in the problem set) has housing values in the suburbs of Boston  
+
+- **506  observations** and **13 predictor variables** (independent variables or X or features)      
+- Median price is a more accurate measure of market prices as it is not affected by outliers       
+
+```{R}
+
+library (tidyverse)  
+library (ggplot2)  
+library(corrplot)  
+
+housing_data = read.csv("housing.proper.csv") #loading the dataset
+housing_data_df= data.frame(housing_data)
+colnames(housing_data_df) <- c("X1","X2","X3","X4","X5","X6","X7","X8",
+                            "X9","X10","X11","X12","X13", "Y") #transforming column names
+```
+# Exploratory Data Analysis    
+
+**Objective of EDA** : To choose important variables or features of this dataset
+Visualisations are used the explain relationship between features and target variable    
+
+
+**Split the data into 70% training set (model building data set) and 30% testing set**
+
+
+```{r}
+set.seed(1234) #set seed to ensure same random numbers are generated
+require(caTools)
+sample = sample.split(housing_data_df, SplitRatio = 0.7)
+#Splits the dataset "housing_data" in the ratio mentioned. Marks rows as logical true and remaining as logical false.  
+
+training_housing_data = subset( housing_data_df, sample == TRUE)  #creates training dataset with rows marked true
+testing_housing_data = subset(housing_data_df, sample ==FALSE)
+```
+**Choosing features through Summary Statistics, Correlation Plot, Heat Map and Boxplot**  
+
+EDA is performed on the complete dataset
+
+```{r}
+
+summary (housing_data_df) # to get statistic of each variable to detect outliers  
+
+housing_data.cor = round(cor(housing_data_df), 3) #correlation between features and median housing values
+housing_data.cor
+
+
+heatmap(housing_data.cor, Rowv = NA, Colv = NA)
+
+corrplot(cor(housing_data_df), method = "number", type = "upper", diag = FALSE)
+
+housing_data.box = boxplot(housing_data_df, xlab= "Features", ylab ="Frequency") #boxplot to detect outliers   
+
+
+
+```
+
+
