@@ -1,6 +1,6 @@
 This is a class project for the course Regression Analysis, where I, along with 3 more teammates have done Regression Analysis to create a predictive model to explain median value of homes in Boston.
 
-**Note** : Median house values are used because they are more accurate as compared to mean values. Median values are not affected by outliers.
+**Note** : Median housing values are used because they are more accurate as compared to mean values. Median values are not affected by outliers.
 
 We have used **506 observations** and **13 predictors** (features) for prediction.
 
