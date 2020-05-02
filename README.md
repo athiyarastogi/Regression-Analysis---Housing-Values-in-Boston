@@ -25,7 +25,7 @@ Dataset is divided into training data (model building dataset) and testing data.
 **Exploratory Data Analysis (EDA)**
 Vizualisations are used to perform EDA to *eliminate variables* not impacting Median Housing Value (target variable).   
 
-   - Visualizations used:
+   - Visualizations used:     
       **1.** Summary Statistic (to find a central measure and detect outliers)     
       **2.** Correlation between Median Value and feature (to eliminated uncorrelated features)        
       **3.** Box Plot (to detect outliers)         
