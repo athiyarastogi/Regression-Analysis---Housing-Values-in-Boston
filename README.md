@@ -19,4 +19,21 @@ The predictors (**X values**) are:\
 **X12** 1000(B − 0.63)2 where B is the proportion of African Americans by town   
 **X13** a numeric vector of percentage values of lower status population 
 
-Model is divided in training dataset (model building dataset) and testing dataset.
+**Preparing the Dataset**     
+Dataset is divided into training data (model building dataset) and testing data.  
+
+**Exploratory Data Analysis (EDA)**
+Vizualisations are used to perform EDA to *eliminate variables* not impacting Median Housing Value (target variable).   
+
+   - Visualizations used:
+      **1.** Summary Statistic (to find a central measure and detect outliers)
+      **2.** Correlation between Median Value and feature (to eliminated uncorrelated features)
+      **3.** Box Plot (to detect outliers)
+   
+
+
+    
+
+ 
+
+
