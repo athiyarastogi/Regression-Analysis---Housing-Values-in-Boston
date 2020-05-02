@@ -17,4 +17,6 @@ The predictors (**X values**) are:\
 **X10** full-value property-tax rate per 10,000   
 **X11** pupil-teacher ratio by town   
 **X12** 1000(B − 0.63)2 where B is the proportion of African Americans by town   
-**X13** a numeric vector of percentage values of lower status population   
+**X13** a numeric vector of percentage values of lower status population 
+
+Model is divided in training dataset (model building dataset) and testing dataset.
