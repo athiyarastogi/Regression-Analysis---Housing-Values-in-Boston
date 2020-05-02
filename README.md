@@ -4,10 +4,10 @@ This is a class project for the course Regression Analysis, where I, along with 
 
 We have used **506 observations** and **13 predictors**, also called features for prediction.
 
-The predictors (**X values**) are:
-**X1** per capita crime rate by town.  
-**X2** proportion of residential land zoned for lots over 25,000 sq.ft. 
-**X3** proportion of non-retail business acres per town 
+The predictors (**X values**) are:\
+**X1** per capita crime rate by town\  
+**X2** proportion of residential land zoned for lots over 25,000 sq.ft.\ 
+**X3** proportion of non-retail business acres per town\
 **X4** Charles River dummy variable 
 **X5** nitric oxide concentration (parts per 10 million) 
 **X6** average number of rooms per dwelling
