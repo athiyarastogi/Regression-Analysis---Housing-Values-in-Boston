@@ -2,9 +2,9 @@ This is a class project for the course Regression Analysis, where I, along with 
 
 **Note** : Median house values are used because they are more accurate as compared to mean values. Median values are not affected by outliers.
 
-We have used 506 observations and 13 predictors, also called features for prediction
+We have used **506 observations** and **13 predictors**, also called features for prediction.
 
-The predictors (**X values** or feautures) are:
+The predictors (**X values**) are:
 1. per capita crime rate by town (x1)
 2. proportion of residential land zoned for lots over 25,000 sq.ft. (x2)
 3. proportion of non-retail business acres per town (x3)
