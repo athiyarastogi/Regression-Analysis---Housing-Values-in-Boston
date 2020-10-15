@@ -1,4 +1,6 @@
-This is a class project for the course Regression Analysis, where I, along with 3 more teammates have done Regression Analysis to create a predictive model to explain median value of homes in Boston.
+3 Team members
+
+Regression Analysis to create a predictive model to explain median value of homes in Boston.
 
 **Note** : Median housing values are used because they are more accurate as compared to mean values. Median values are not affected by outliers.
 
