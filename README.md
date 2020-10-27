@@ -1,10 +1,9 @@
-3 Team members
 
-Regression Analysis to create a predictive model to explain median value of homes in Boston.
-
+```Regression Analysis to create a predictive model to explain median value of homes in Boston.```
+--------------------------------
 **Note** : Median housing values are used because they are more accurate as compared to mean values. Median values are not affected by outliers.
 
-We have used **506 observations** and **13 predictors** (features) for prediction.
+**506 observations** and **13 predictors** (features) for prediction.
 
 The predictors (**X values**) are:\
 **1** per capita crime rate by town     
