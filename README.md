@@ -1,5 +1,5 @@
 
-```Regression Analysis to create a predictive model to explain median value of homes in Boston.```
+```Regression Analysis to explain median value of homes in Boston.```
 --------------------------------
 **Note** : Median housing values are used because they are more accurate as compared to mean values. Median values are not affected by outliers.
 
